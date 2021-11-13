@@ -63,7 +63,7 @@ if Kristen:
     fig.update_layout(paper_bgcolor='#ffffff', plot_bgcolor="#f6f8f9", showlegend=False)
     st.plotly_chart(fig, use_container_width=True)
     #Explanation
-    with st.beta_expander("Explanation"):
+    with st.expander("Explanation"):
         #dataset
         st.dataframe(timeSeries,800,200)
         #codes
